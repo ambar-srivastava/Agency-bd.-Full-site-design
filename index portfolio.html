@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agency bd</title>
+    <link rel="stylesheet" href="style portfolio.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+    <div id="loading">
+        <div id="loader">
+            <div class="element">
+                <h1>Agency <span>bd</span>.</h1>
+            </div>
+            <div class="element">
+                <h3>Desinging Agency</h3>
+            </div>
+            <div class="element">
+                <h3>loves to help Brands.</h3>
+            </div>
+            <div class="element">
+                <h1>Agency <span>bd</span>.</h1>
+            </div>
+        </div>
+    </div>
+    <div id="background">
+        <nav>
+            <h1 class="leftitem">Agency <span>bd.</span></h1>
+            <div id="list">
+                <a class="navitem" href="./index.html">home</a>
+                <a class="navitem" href="./index ourwork.html">our work</a>
+                <i class ="navitem ri-search-line"></i>
+                <i id="menu" class="navitem ri-menu-3-line"></i>
+            </div>
+        </nav>
+        <div id="partition">
+            <!-- <img class="leftitem" id="splash" src="./Assets porfolio/rightSplash.png" alt=""> -->
+            <div id="left">
+                <div id="bar"></div>
+                <h4 class="leftitem">Hello, We are 👋</h4>
+                <h1 class="leftitem">Agency <span>bd</span></h1>
+                <h3 class="leftitem" >an agency from <span>india</span>.</h3>
+                <div class="leftitem" id="play">
+                    <img src="./Assets porfolio/playButton.png" alt="">
+                    <h5>see our <span>work profile</span></h5>
+                </div>
+                <div class="leftitem" id="contact">
+                    <h4>contact us<h4>
+                    <h5 class="info">Email : <span>agency.bd@gmail.com</span></h5>
+                    <h5 class="info">Contact : <span>+91 - 9876543210</span></h5>
+                </div>
+            </div>
+            <div id="right">
+                <img src="./Assets porfolio/design mid.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <script src="script portfolio.js"></script>
+    
+    <script>
+        var menu = document.querySelector('#menu');
+        var background = document.querySelector('#background');
+
+        menu.addEventListener('click',function(){
+            background.style.transform = 'scale(.8)';
+            background.style.borderRadius = '10px'
+            background.style.boxShadow = '0 150px 45px -100px rgba(0,0,0,0.2)';
+        })
+    </script>
+</body>
+</html>
